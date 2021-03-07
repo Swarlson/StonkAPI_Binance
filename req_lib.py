@@ -18,7 +18,7 @@ class Message:
         self._client.API_URL = url
 
     def get_stonks(self):
-        pass
+        return 
     def get_accountInfo(self):
         return self._client.get_account()
 

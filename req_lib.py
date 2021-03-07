@@ -21,3 +21,4 @@ class Message:
         pass
     def get_accountInfo(self):
         return self._client.get_account()
+
